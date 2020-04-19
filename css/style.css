@@ -172,6 +172,56 @@ p {
   top: 2px;
 }
 
+.destaque {
+  font-size: 1em;
+  color: #b07dfb;
+  max-width: 20em;
+}
+
+@media (max-width: 1360px) {
+  .destaque {
+    font-size: .875em;
+    max-width: 16em;
+  }
+}
+
+.citacao, .atributos {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.atributos {
+  align-self: start;
+}
+
+.citacao p {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.atributos li {
+  color: #fff;
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+.atributos li + li {
+  border-top: 2px solid #b07dfb;
+}
+
+.imagem-1,
+.imagem-2,
+.imagem-3 {
+  width: 100%;
+}
+
 .imagem-1 {
   grid-row: span 2;
   align-self: end;
